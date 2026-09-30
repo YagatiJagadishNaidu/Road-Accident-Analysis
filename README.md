@@ -124,16 +124,6 @@ The dashboard includes visualizations for:
 
 ![Road Accident Dashboard](images/dashboard-overview.png)
 
-### Accident Analysis
-
-![Accident Analysis](images/accident-analysis.png)
-
-### Accident Insights
-
-![Accident Insights](images/accident-insights.png)
-
-> **Note:** Replace the image names above with the exact names of your uploaded screenshots.
-
 ---
 
 ## 🔍 Key Insights

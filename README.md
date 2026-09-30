@@ -49,8 +49,7 @@ Road-Accident-Analysis/
 ├── 📁 Road_Accident_Cleaned_75000.csv
 ├── 🖼️ images/
 │   ├── dashboard-overview.png
-│   ├── accident-analysis.png
-│   └── accident-insights.png
+│  
 │
 └── 📖 README.md
 ```

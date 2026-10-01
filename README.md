@@ -156,7 +156,7 @@ You can add additional screenshots of your project below.
 
 ### Power BI Dashboard
 
-![Power BI Dashboard](images/powerbi-dashboard.png)
+![Power BI Dashboard](Screenshots/Dashboards/powerbi-dashboard.png)
 
 ### MySQL Analysis
 

@@ -6,9 +6,11 @@
 
 ## 📌 About the Project
 
-The **Road Accident Analysis Dashboard** is a data analytics and business intelligence project developed to analyze road accident data and identify meaningful patterns and trends. The project focuses on understanding accident frequency, casualties, severity, vehicle involvement, road conditions, weather conditions, and other factors associated with road accidents.
+The **Road Accident Analysis Dashboard** is a data analytics and business intelligence project developed to analyze road accident data and identify meaningful patterns and trends.
 
-The project combines **Excel, MySQL, and Power BI** to transform raw accident data into meaningful insights. Excel was used for initial data preparation and cleaning, MySQL was used for data management and SQL-based analysis, and Power BI was used to create an interactive dashboard for visualization and reporting.
+The project focuses on analyzing accident frequency, casualties, accident severity, vehicle types, road types, weather conditions, road surface conditions, urban and rural areas, and other accident-related factors.
+
+The project uses **Excel, MySQL, and Power BI** to transform raw accident data into meaningful and easy-to-understand visual insights.
 
 ---
 
@@ -16,155 +18,247 @@ The project combines **Excel, MySQL, and Power BI** to transform raw accident da
 
 The main objectives of this project are:
 
-* To analyze road accident patterns and trends.
-* To identify factors associated with accident severity.
-* To analyze total accidents and casualties.
-* To understand accident patterns based on vehicle types.
-* To analyze accidents based on road and weather conditions.
-* To compare accident patterns across different locations and areas.
-* To create an interactive and user-friendly Power BI dashboard.
-* To convert raw accident data into useful analytical insights.
+- Analyze road accident patterns and trends.
+- Analyze accident severity and casualties.
+- Identify patterns based on vehicle types.
+- Analyze accidents across different road types.
+- Study the relationship between accidents and weather conditions.
+- Analyze road surface conditions.
+- Compare accidents between urban and rural areas.
+- Analyze accident patterns by day of the week.
+- Perform SQL-based analysis using MySQL.
+- Create an interactive Power BI dashboard.
+- Convert raw accident data into meaningful insights.
 
 ---
 
 ## 🛠️ Technologies & Tools
 
-The project was developed using the following technologies:
+The project was developed using:
 
-* **Microsoft Excel** – Data cleaning, preparation and initial analysis
-* **MySQL** – Data storage, SQL queries and data analysis
-* **Power BI** – Interactive dashboard and data visualization
-* **DAX** – Calculated measures and KPIs
-* **CSV** – Dataset storage and data exchange
-
----
-
-## 📂 Project Structure
-
-```text
-Road-Accident-Analysis/
-│
-├── 📊 Capstone_powerBI.pbix
-├── 🗄️ Road_Accident_Analysis.sql
-├── 📁 Road_Accident_Cleaned_75000.csv
-├── 🖼️ images/
-│   ├── dashboard-overview.png
-│  
-│
-└── 📖 README.md
-```
+- **Microsoft Excel** – Data preparation, cleaning and initial analysis
+- **MySQL** – Data storage and SQL-based analysis
+- **Power BI** – Interactive dashboard and data visualization
+- **DAX** – KPIs and calculated measures
+- **CSV** – Dataset storage and data exchange
 
 ---
 
 ## 📊 Dataset
 
-The project uses a cleaned road accident dataset containing approximately **75,000 records**. The dataset contains different attributes related to accidents, casualties, vehicles, road conditions, weather, lighting, locations, and accident severity.
+The project uses a cleaned road accident dataset containing approximately **75,000 records** and multiple accident-related attributes.
 
-The dataset was prepared before performing the analysis to improve data quality and make it suitable for SQL analysis and Power BI visualization.
+The dataset contains information related to:
 
-### Dataset includes information related to:
-
-* Accident severity
-* Accident date and time
-* Number of casualties
-* Vehicle type
-* Road type
-* Road surface condition
-* Weather conditions
-* Light conditions
-* Urban/Rural area
-* Location-related information
-* Other accident characteristics
+- Accident severity
+- Accident date and time
+- Number of casualties
+- Number of vehicles
+- Vehicle type
+- Road type
+- Road surface conditions
+- Weather conditions
+- Light conditions
+- Urban/Rural area
+- Junction information
+- Location-related information
+- Other accident characteristics
 
 ---
 
 ## 🔄 Project Workflow
 
-The complete project follows a structured data analytics workflow:
+The project follows a complete data analytics workflow:
 
 **Raw Data → Data Cleaning → Excel → MySQL → SQL Analysis → Power BI → Dashboard → Insights**
 
-### 1. Data Preparation
+### 1️⃣ Data Preparation
 
-The raw dataset was inspected and cleaned to make it suitable for further analysis. Missing values, unnecessary fields, duplicate records, incorrect data types, and inconsistent categorical values were reviewed during the preparation stage.
+The accident dataset was reviewed and prepared before analysis.
 
-### 2. MySQL Analysis
+The preparation process included:
 
-The cleaned dataset was imported into MySQL for structured data analysis. SQL queries were used to calculate accident counts, casualty counts, accident severity distributions, and patterns across different categories.
+- Checking the dataset structure
+- Reviewing missing values
+- Checking data quality
+- Preparing fields for analysis
+- Formatting the data for SQL and Power BI
 
-### 3. Power BI Dashboard
+---
 
-The processed data was then connected to Power BI. Data models, calculated measures, KPIs, charts, and interactive filters were created to build the final dashboard.
+### 2️⃣ MySQL Analysis
+
+The cleaned dataset was imported into MySQL for structured analysis.
+
+SQL queries were used to analyze:
+
+- Total accidents
+- Accident severity
+- Total casualties
+- Average casualties
+- Monthly accident trends
+- Road types
+- Weather conditions
+- Vehicle types
+- Urban and rural areas
+- Day of the week
+- Road surface conditions
+
+---
+
+### 3️⃣ Power BI Dashboard
+
+Power BI was used to create an interactive dashboard that presents the accident analysis through KPIs, charts and filters.
+
+The dashboard allows users to explore accident patterns across different categories.
 
 ---
 
 # 📈 Power BI Dashboard
 
-The Power BI dashboard provides an interactive view of road accident data and allows users to explore different accident patterns.
-
 The dashboard includes visualizations for:
 
-* 📌 Total Accidents
-* 👥 Total Casualties
-* ⚠️ Accident Severity
-* 🚗 Vehicle Type
-* 🛣️ Road Type
-* 🌦️ Weather Conditions
-* 🌙 Light Conditions
-* 🏙️ Urban vs Rural Areas
-* 📅 Accident Trends
-* 📍 Location-Based Analysis
+- 📌 Total Accidents
+- 👥 Total Casualties
+- ⚠️ Accident Severity
+- 🚗 Vehicle Types
+- 🛣️ Road Types
+- 🌦️ Weather Conditions
+- 🏙️ Urban vs Rural Areas
+- 📅 Day of Week
+- 📈 Monthly Accident Trends
+- 🛞 Road Surface Conditions
 
 ---
 
-## 🖼️ Dashboard Preview
+## 🖼️ Project Screenshots
 
-### Dashboard Overview
+### 📊 Power BI Dashboard
 
-![Road Accident Dashboard](images/dashboard-overview.png)
-
----
-
-## 🔍 Key Insights
-
-The dashboard helps identify important patterns in the accident dataset. Some of the major areas explored include:
-
-* Distribution of accidents by severity.
-* Number of casualties across different accident categories.
-* Accident involvement by vehicle type.
-* Relationship between accidents and road conditions.
-* Impact of weather conditions on accident occurrence.
-* Differences between urban and rural accident patterns.
-* Accident trends across different time periods.
-* Road types associated with accident occurrences.
-
-These insights provide a better understanding of accident patterns and can support data-driven discussions around road safety.
+![Power BI Dashboard](./Screenshots/powerbi-dashboard.png)
 
 ---
 
-## 💡 Business & Safety Value
+### 🗄️ MySQL Analysis
 
-Analyzing accident data can help organizations understand where and when accidents occur more frequently and which factors are commonly associated with them.
-
-The dashboard provides an easy-to-understand visual representation of the data, making it easier for users to identify patterns, compare categories, and explore accident-related information without manually analyzing thousands of records.
+![MySQL Analysis](./Screenshots/mysql-analysis.png)
 
 ---
 
-## 📸 Project Screenshots
+### 📑 Excel Analysis
 
-You can add additional screenshots of your project below.
+![Excel Analysis](./Screenshots/excel-analysis.png)
 
-### Power BI Dashboard
+---
 
-![Power BI Dashboard](Screenshots/Dashboards/powerbi-dashboard.png)
+## 🔍 Key Analysis Areas
 
-### MySQL Analysis
+The project analyzes road accidents from multiple perspectives, including:
 
-![MySQL Analysis](images/mysql-analysis.png)
+### Accident Severity
 
-### Data Preparation
+The analysis compares accidents based on:
 
-![Data Preparation](images/excel-analysis.png)
+- Slight
+- Serious
+- Fatal
+
+### Road Type
+
+Accidents are analyzed across different road types such as:
+
+- Single carriageway
+- Dual carriageway
+- Roundabout
+- One way street
+- Slip road
+
+### Weather Conditions
+
+The project analyzes accident occurrence under different weather conditions, including:
+
+- Fine conditions
+- Rain
+- Fog or mist
+- Snow
+- High-wind conditions
+
+### Vehicle Type
+
+The analysis examines accident involvement across different vehicle categories.
+
+### Road Surface
+
+Road accidents are also analyzed based on surface conditions such as:
+
+- Dry
+- Wet or damp
+- Frost or ice
+- Snow
+- Flood conditions
+
+### Urban & Rural Areas
+
+The dashboard compares accident patterns between:
+
+- Urban areas
+- Rural areas
+
+### Day of Week
+
+Accident patterns are also analyzed across different days of the week.
+
+---
+
+## 💡 Key Insights
+
+The project helps identify patterns related to:
+
+- Accident severity distribution
+- Casualty levels
+- Monthly accident trends
+- Vehicle involvement
+- Road type patterns
+- Weather conditions
+- Road surface conditions
+- Urban and rural accident distribution
+- Day-wise accident patterns
+
+These insights help provide a clearer understanding of accident patterns within the analyzed dataset.
+
+---
+
+## 📊 Dashboard Features
+
+The Power BI dashboard provides:
+
+- Interactive KPIs
+- Charts and visualizations
+- Accident severity analysis
+- Monthly trends
+- Vehicle analysis
+- Road type analysis
+- Weather analysis
+- Road surface analysis
+- Urban/Rural comparison
+- Interactive filters
+
+Users can interact with the dashboard to explore different aspects of the accident data.
+
+---
+
+## 💼 Business & Safety Value
+
+Road accident analysis can help organizations better understand accident patterns and identify areas that require further investigation.
+
+The dashboard makes it easier to:
+
+- Explore large amounts of accident data
+- Identify important patterns
+- Compare different accident categories
+- Monitor accident-related metrics
+- Present analytical findings visually
+- Support data-driven road safety discussions
 
 ---
 
@@ -174,62 +268,7 @@ You can add additional screenshots of your project below.
 
 1. Download or clone this repository.
 2. Install **Microsoft Power BI Desktop**.
-3. Open `Capstone_powerBI.pbix`.
-4. If required, update the dataset/data-source path.
-5. Refresh the data.
-6. Explore the dashboard using the available filters and visuals.
+3. Open:
 
-### MySQL
-
-1. Install MySQL.
-2. Create a database.
-3. Import the accident dataset.
-4. Run `Road_Accident_Analysis.sql`.
-5. Execute the queries to reproduce the analysis.
-
-### Excel
-
-The cleaned CSV file can be opened in Microsoft Excel for further data inspection and analysis.
-
----
-
-## 📚 Skills Demonstrated
-
-Through this project, I developed and demonstrated practical skills in:
-
-* Data Cleaning
-* Data Analysis
-* Excel
-* SQL
-* MySQL
-* Power BI
-* DAX
-* Data Visualization
-* Data Modeling
-* Dashboard Development
-* Business Intelligence
-* Insight Generation
-
----
-
-## 🎓 Project Information
-
-**Project Title:** Road Accident Analysis Dashboard
-
-**Subtitle:** *Analyzing Road Accident Patterns and Safety Insights Using Excel, MySQL and Power BI*
-
-**Domain:** Data Analytics / Business Intelligence
-
-**Student:** **Yagati Jagadish Naidu**
-
-**Branch:** CSE – Artificial Intelligence & Machine Learning
-
----
-
-## 👨‍💻 Author
-
-### Yagati Jagadish Naidu
-
-CSE – Artificial Intelligence & Machine Learning student with an interest in **Data Analytics, Data Science, Data Engineering and Technology**.
-
- 
+```text
+Capstone_powerBI.pbix
